@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94921B831E732AD900C5EC6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94921B821E732AD900C5EC6B /* AppDelegate.swift */; };
+		94921B851E732AD900C5EC6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94921B841E732AD900C5EC6B /* ViewController.swift */; };
+		94921B881E732AD900C5EC6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94921B861E732AD900C5EC6B /* Main.storyboard */; };
+		94921B8A1E732AD900C5EC6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94921B891E732AD900C5EC6B /* Assets.xcassets */; };
+		94921B8D1E732AD900C5EC6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94921B8B1E732AD900C5EC6B /* LaunchScreen.storyboard */; };
+		94921B981E732AD900C5EC6B /* DormPassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94921B971E732AD900C5EC6B /* DormPassTests.swift */; };
+		94921BA31E732AD900C5EC6B /* DormPassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94921BA21E732AD900C5EC6B /* DormPassUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94921B941E732AD900C5EC6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94921B771E732AD900C5EC6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94921B7E1E732AD900C5EC6B;
+			remoteInfo = DormPass;
+		};
+		94921B9F1E732AD900C5EC6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94921B771E732AD900C5EC6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94921B7E1E732AD900C5EC6B;
+			remoteInfo = DormPass;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94921B7F1E732AD900C5EC6B /* DormPass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DormPass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94921B821E732AD900C5EC6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94921B841E732AD900C5EC6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		94921B871E732AD900C5EC6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94921B891E732AD900C5EC6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94921B8C1E732AD900C5EC6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94921B8E1E732AD900C5EC6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94921B931E732AD900C5EC6B /* DormPassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DormPassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94921B971E732AD900C5EC6B /* DormPassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DormPassTests.swift; sourceTree = "<group>"; };
+		94921B991E732AD900C5EC6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94921B9E1E732AD900C5EC6B /* DormPassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DormPassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94921BA21E732AD900C5EC6B /* DormPassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DormPassUITests.swift; sourceTree = "<group>"; };
+		94921BA41E732AD900C5EC6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94921B7C1E732AD900C5EC6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94921B901E732AD900C5EC6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94921B9B1E732AD900C5EC6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94921B761E732AD900C5EC6B = {
+			isa = PBXGroup;
+			children = (
+				94921B811E732AD900C5EC6B /* DormPass */,
+				94921B961E732AD900C5EC6B /* DormPassTests */,
+				94921BA11E732AD900C5EC6B /* DormPassUITests */,
+				94921B801E732AD900C5EC6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94921B801E732AD900C5EC6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94921B7F1E732AD900C5EC6B /* DormPass.app */,
+				94921B931E732AD900C5EC6B /* DormPassTests.xctest */,
+				94921B9E1E732AD900C5EC6B /* DormPassUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94921B811E732AD900C5EC6B /* DormPass */ = {
+			isa = PBXGroup;
+			children = (
+				94921B821E732AD900C5EC6B /* AppDelegate.swift */,
+				94921B841E732AD900C5EC6B /* ViewController.swift */,
+				94921B861E732AD900C5EC6B /* Main.storyboard */,
+				94921B891E732AD900C5EC6B /* Assets.xcassets */,
+				94921B8B1E732AD900C5EC6B /* LaunchScreen.storyboard */,
+				94921B8E1E732AD900C5EC6B /* Info.plist */,
+			);
+			path = DormPass;
+			sourceTree = "<group>";
+		};
+		94921B961E732AD900C5EC6B /* DormPassTests */ = {
+			isa = PBXGroup;
+			children = (
+				94921B971E732AD900C5EC6B /* DormPassTests.swift */,
+				94921B991E732AD900C5EC6B /* Info.plist */,
+			);
+			path = DormPassTests;
+			sourceTree = "<group>";
+		};
+		94921BA11E732AD900C5EC6B /* DormPassUITests */ = {
+			isa = PBXGroup;
+			children = (
+				94921BA21E732AD900C5EC6B /* DormPassUITests.swift */,
+				94921BA41E732AD900C5EC6B /* Info.plist */,
+			);
+			path = DormPassUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94921B7E1E732AD900C5EC6B /* DormPass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94921BA71E732AD900C5EC6B /* Build configuration list for PBXNativeTarget "DormPass" */;
+			buildPhases = (
+				94921B7B1E732AD900C5EC6B /* Sources */,
+				94921B7C1E732AD900C5EC6B /* Frameworks */,
+				94921B7D1E732AD900C5EC6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DormPass;
+			productName = DormPass;
+			productReference = 94921B7F1E732AD900C5EC6B /* DormPass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94921B921E732AD900C5EC6B /* DormPassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94921BAA1E732AD900C5EC6B /* Build configuration list for PBXNativeTarget "DormPassTests" */;
+			buildPhases = (
+				94921B8F1E732AD900C5EC6B /* Sources */,
+				94921B901E732AD900C5EC6B /* Frameworks */,
+				94921B911E732AD900C5EC6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94921B951E732AD900C5EC6B /* PBXTargetDependency */,
+			);
+			name = DormPassTests;
+			productName = DormPassTests;
+			productReference = 94921B931E732AD900C5EC6B /* DormPassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94921B9D1E732AD900C5EC6B /* DormPassUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94921BAD1E732AD900C5EC6B /* Build configuration list for PBXNativeTarget "DormPassUITests" */;
+			buildPhases = (
+				94921B9A1E732AD900C5EC6B /* Sources */,
+				94921B9B1E732AD900C5EC6B /* Frameworks */,
+				94921B9C1E732AD900C5EC6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94921BA01E732AD900C5EC6B /* PBXTargetDependency */,
+			);
+			name = DormPassUITests;
+			productName = DormPassUITests;
+			productReference = 94921B9E1E732AD900C5EC6B /* DormPassUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94921B771E732AD900C5EC6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Ryan;
+				TargetAttributes = {
+					94921B7E1E732AD900C5EC6B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					94921B921E732AD900C5EC6B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 94921B7E1E732AD900C5EC6B;
+					};
+					94921B9D1E732AD900C5EC6B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 94921B7E1E732AD900C5EC6B;
+					};
+				};
+			};
+			buildConfigurationList = 94921B7A1E732AD900C5EC6B /* Build configuration list for PBXProject "DormPass" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94921B761E732AD900C5EC6B;
+			productRefGroup = 94921B801E732AD900C5EC6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94921B7E1E732AD900C5EC6B /* DormPass */,
+				94921B921E732AD900C5EC6B /* DormPassTests */,
+				94921B9D1E732AD900C5EC6B /* DormPassUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94921B7D1E732AD900C5EC6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94921B8D1E732AD900C5EC6B /* LaunchScreen.storyboard in Resources */,
+				94921B8A1E732AD900C5EC6B /* Assets.xcassets in Resources */,
+				94921B881E732AD900C5EC6B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94921B911E732AD900C5EC6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94921B9C1E732AD900C5EC6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94921B7B1E732AD900C5EC6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94921B851E732AD900C5EC6B /* ViewController.swift in Sources */,
+				94921B831E732AD900C5EC6B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94921B8F1E732AD900C5EC6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94921B981E732AD900C5EC6B /* DormPassTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94921B9A1E732AD900C5EC6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94921BA31E732AD900C5EC6B /* DormPassUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94921B951E732AD900C5EC6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94921B7E1E732AD900C5EC6B /* DormPass */;
+			targetProxy = 94921B941E732AD900C5EC6B /* PBXContainerItemProxy */;
+		};
+		94921BA01E732AD900C5EC6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94921B7E1E732AD900C5EC6B /* DormPass */;
+			targetProxy = 94921B9F1E732AD900C5EC6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94921B861E732AD900C5EC6B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94921B871E732AD900C5EC6B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94921B8B1E732AD900C5EC6B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94921B8C1E732AD900C5EC6B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94921BA51E732AD900C5EC6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94921BA61E732AD900C5EC6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94921BA81E732AD900C5EC6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DormPass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.ssfs.DormPass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		94921BA91E732AD900C5EC6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DormPass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.ssfs.DormPass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		94921BAB1E732AD900C5EC6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DormPassTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.ssfs.DormPassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DormPass.app/DormPass";
+			};
+			name = Debug;
+		};
+		94921BAC1E732AD900C5EC6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DormPassTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.ssfs.DormPassTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DormPass.app/DormPass";
+			};
+			name = Release;
+		};
+		94921BAE1E732AD900C5EC6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DormPassUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.ssfs.DormPassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DormPass;
+			};
+			name = Debug;
+		};
+		94921BAF1E732AD900C5EC6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DormPassUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.ssfs.DormPassUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DormPass;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94921B7A1E732AD900C5EC6B /* Build configuration list for PBXProject "DormPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94921BA51E732AD900C5EC6B /* Debug */,
+				94921BA61E732AD900C5EC6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94921BA71E732AD900C5EC6B /* Build configuration list for PBXNativeTarget "DormPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94921BA81E732AD900C5EC6B /* Debug */,
+				94921BA91E732AD900C5EC6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		94921BAA1E732AD900C5EC6B /* Build configuration list for PBXNativeTarget "DormPassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94921BAB1E732AD900C5EC6B /* Debug */,
+				94921BAC1E732AD900C5EC6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		94921BAD1E732AD900C5EC6B /* Build configuration list for PBXNativeTarget "DormPassUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94921BAE1E732AD900C5EC6B /* Debug */,
+				94921BAF1E732AD900C5EC6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94921B771E732AD900C5EC6B /* Project object */;
+}
