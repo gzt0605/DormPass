@@ -14,6 +14,8 @@
 		94921B8D1E732AD900C5EC6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94921B8B1E732AD900C5EC6B /* LaunchScreen.storyboard */; };
 		94921B981E732AD900C5EC6B /* DormPassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94921B971E732AD900C5EC6B /* DormPassTests.swift */; };
 		94921BA31E732AD900C5EC6B /* DormPassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94921BA21E732AD900C5EC6B /* DormPassUITests.swift */; };
+		94921BB11E732B5800C5EC6B /* please-sign-in.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94921BB01E732B5800C5EC6B /* please-sign-in.jpg */; };
+		94921BB31E732B5D00C5EC6B /* keep-calm-and-don-t-forget-to-sign-out-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 94921BB21E732B5D00C5EC6B /* keep-calm-and-don-t-forget-to-sign-out-1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		94921B9E1E732AD900C5EC6B /* DormPassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DormPassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94921BA21E732AD900C5EC6B /* DormPassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DormPassUITests.swift; sourceTree = "<group>"; };
 		94921BA41E732AD900C5EC6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94921BB01E732B5800C5EC6B /* please-sign-in.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "please-sign-in.jpg"; sourceTree = "<group>"; };
+		94921BB21E732B5D00C5EC6B /* keep-calm-and-don-t-forget-to-sign-out-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keep-calm-and-don-t-forget-to-sign-out-1.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				94921B821E732AD900C5EC6B /* AppDelegate.swift */,
 				94921B841E732AD900C5EC6B /* ViewController.swift */,
 				94921B861E732AD900C5EC6B /* Main.storyboard */,
+				94921BB01E732B5800C5EC6B /* please-sign-in.jpg */,
+				94921BB21E732B5D00C5EC6B /* keep-calm-and-don-t-forget-to-sign-out-1.png */,
 				94921B891E732AD900C5EC6B /* Assets.xcassets */,
 				94921B8B1E732AD900C5EC6B /* LaunchScreen.storyboard */,
 				94921B8E1E732AD900C5EC6B /* Info.plist */,
@@ -233,8 +239,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				94921B8D1E732AD900C5EC6B /* LaunchScreen.storyboard in Resources */,
+				94921BB11E732B5800C5EC6B /* please-sign-in.jpg in Resources */,
 				94921B8A1E732AD900C5EC6B /* Assets.xcassets in Resources */,
 				94921B881E732AD900C5EC6B /* Main.storyboard in Resources */,
+				94921BB31E732B5D00C5EC6B /* keep-calm-and-don-t-forget-to-sign-out-1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
