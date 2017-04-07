@@ -16,6 +16,8 @@
 		94921BA31E732AD900C5EC6B /* DormPassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94921BA21E732AD900C5EC6B /* DormPassUITests.swift */; };
 		94921BB11E732B5800C5EC6B /* please-sign-in.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94921BB01E732B5800C5EC6B /* please-sign-in.jpg */; };
 		94921BB31E732B5D00C5EC6B /* keep-calm-and-don-t-forget-to-sign-out-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 94921BB21E732B5D00C5EC6B /* keep-calm-and-don-t-forget-to-sign-out-1.png */; };
+		94A4B71D1E7C2EAD00A2B694 /* SignOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A4B71C1E7C2EAD00A2B694 /* SignOutViewController.swift */; };
+		94A4B71F1E7C314600A2B694 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94A4B71E1E7C314600A2B694 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		94921BA41E732AD900C5EC6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94921BB01E732B5800C5EC6B /* please-sign-in.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "please-sign-in.jpg"; sourceTree = "<group>"; };
 		94921BB21E732B5D00C5EC6B /* keep-calm-and-don-t-forget-to-sign-out-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keep-calm-and-don-t-forget-to-sign-out-1.png"; sourceTree = "<group>"; };
+		94A4B71C1E7C2EAD00A2B694 /* SignOutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignOutViewController.swift; sourceTree = "<group>"; };
+		94A4B71E1E7C314600A2B694 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +108,10 @@
 				94921B821E732AD900C5EC6B /* AppDelegate.swift */,
 				94921B841E732AD900C5EC6B /* ViewController.swift */,
 				94921B861E732AD900C5EC6B /* Main.storyboard */,
+				94A4B71C1E7C2EAD00A2B694 /* SignOutViewController.swift */,
 				94921BB01E732B5800C5EC6B /* please-sign-in.jpg */,
 				94921BB21E732B5D00C5EC6B /* keep-calm-and-don-t-forget-to-sign-out-1.png */,
+				94A4B71E1E7C314600A2B694 /* GoogleService-Info.plist */,
 				94921B891E732AD900C5EC6B /* Assets.xcassets */,
 				94921B8B1E732AD900C5EC6B /* LaunchScreen.storyboard */,
 				94921B8E1E732AD900C5EC6B /* Info.plist */,
@@ -243,6 +249,7 @@
 				94921B8A1E732AD900C5EC6B /* Assets.xcassets in Resources */,
 				94921B881E732AD900C5EC6B /* Main.storyboard in Resources */,
 				94921BB31E732B5D00C5EC6B /* keep-calm-and-don-t-forget-to-sign-out-1.png in Resources */,
+				94A4B71F1E7C314600A2B694 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94921B851E732AD900C5EC6B /* ViewController.swift in Sources */,
+				94A4B71D1E7C2EAD00A2B694 /* SignOutViewController.swift in Sources */,
 				94921B831E732AD900C5EC6B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -513,6 +521,7 @@
 				94921BA91E732AD900C5EC6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94921BAA1E732AD900C5EC6B /* Build configuration list for PBXNativeTarget "DormPassTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +530,7 @@
 				94921BAC1E732AD900C5EC6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94921BAD1E732AD900C5EC6B /* Build configuration list for PBXNativeTarget "DormPassUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +539,7 @@
 				94921BAF1E732AD900C5EC6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

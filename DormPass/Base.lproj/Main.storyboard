@@ -22,7 +22,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u48-8l-43n">
-                                <rect key="frame" x="56" y="592" width="60" height="30"/>
+                                <rect key="frame" x="70" y="504" width="60" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Sign Out"/>
                                 <connections>
@@ -30,7 +30,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kN7-Qw-Fc7">
-                                <rect key="frame" x="258" y="592" width="47" height="30"/>
+                                <rect key="frame" x="252" y="504" width="47" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Sign In"/>
                                 <connections>
@@ -38,15 +38,15 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="please-sign-in.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="BB2-LB-dYC">
-                                <rect key="frame" x="16" y="94" width="189" height="258"/>
+                                <rect key="frame" x="191" y="204" width="168" height="239"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="keep-calm-and-don-t-forget-to-sign-out-1.png" translatesAutoresizingMaskIntoConstraints="NO" id="ppi-rD-c1l">
-                                <rect key="frame" x="170" y="311" width="189" height="258"/>
+                                <rect key="frame" x="16" y="204" width="168" height="239"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dorm Pass" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BXq-lV-mqz">
-                                <rect key="frame" x="123" y="56" width="129" height="21"/>
+                                <rect key="frame" x="123" y="126" width="129" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <nil key="textColor"/>
@@ -166,10 +166,10 @@
             </objects>
             <point key="canvasLocation" x="848.79999999999995" y="823.53823088455783"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign Out View Controller-->
         <scene sceneID="i45-gA-4Pq">
             <objects>
-                <viewController id="hYE-4f-Vrm" sceneMemberID="viewController">
+                <viewController id="hYE-4f-Vrm" customClass="SignOutViewController" customModule="DormPass" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Mhp-9W-KPZ"/>
                         <viewControllerLayoutGuide type="bottom" id="Yh7-gJ-nhL"/>
@@ -306,6 +306,6 @@
         <image name="please-sign-in.jpg" width="620" height="829"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="XxX-uj-DMT"/>
+        <segue reference="S1e-z9-sze"/>
     </inferredMetricsTieBreakers>
 </document>
