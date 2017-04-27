@@ -18,6 +18,10 @@
 		94921BB31E732B5D00C5EC6B /* keep-calm-and-don-t-forget-to-sign-out-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 94921BB21E732B5D00C5EC6B /* keep-calm-and-don-t-forget-to-sign-out-1.png */; };
 		94A4B71D1E7C2EAD00A2B694 /* SignOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A4B71C1E7C2EAD00A2B694 /* SignOutViewController.swift */; };
 		94A4B71F1E7C314600A2B694 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94A4B71E1E7C314600A2B694 /* GoogleService-Info.plist */; };
+		94C2C10A1EAA42BC00091B02 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C2C1091EAA42BC00091B02 /* Student.swift */; };
+		A2A5A492BEBB706494BE8F38 /* Pods_DormPassTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5211DE4FB5175BE6083E65D /* Pods_DormPassTests.framework */; };
+		A7C3AA65BFC9F56B8385B8F8 /* Pods_DormPassUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A17EF118D76CBBD83DB3CE2 /* Pods_DormPassUITests.framework */; };
+		FB8DF2A4B2903F9313968B48 /* Pods_DormPass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2615EF5C2D5A0EAB09C6465 /* Pods_DormPass.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01F11DB5F8BBFF06D0FD224B /* Pods-DormPass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DormPass.release.xcconfig"; path = "Pods/Target Support Files/Pods-DormPass/Pods-DormPass.release.xcconfig"; sourceTree = "<group>"; };
+		2D6D1C8F263A9665694444B8 /* Pods-DormPassUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DormPassUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DormPassUITests/Pods-DormPassUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5517566475B41ECEE0B2A4F1 /* Pods-DormPassTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DormPassTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DormPassTests/Pods-DormPassTests.release.xcconfig"; sourceTree = "<group>"; };
+		696325C20E5D4004E1AFD1DE /* Pods-DormPassUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DormPassUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DormPassUITests/Pods-DormPassUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A17EF118D76CBBD83DB3CE2 /* Pods_DormPassUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DormPassUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94921B7F1E732AD900C5EC6B /* DormPass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DormPass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94921B821E732AD900C5EC6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94921B841E732AD900C5EC6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +64,11 @@
 		94921BB21E732B5D00C5EC6B /* keep-calm-and-don-t-forget-to-sign-out-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keep-calm-and-don-t-forget-to-sign-out-1.png"; sourceTree = "<group>"; };
 		94A4B71C1E7C2EAD00A2B694 /* SignOutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignOutViewController.swift; sourceTree = "<group>"; };
 		94A4B71E1E7C314600A2B694 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		94C2C1091EAA42BC00091B02 /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		A2615EF5C2D5A0EAB09C6465 /* Pods_DormPass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DormPass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA39FB693C6138925D432770 /* Pods-DormPass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DormPass.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DormPass/Pods-DormPass.debug.xcconfig"; sourceTree = "<group>"; };
+		E5211DE4FB5175BE6083E65D /* Pods_DormPassTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DormPassTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED22943CDC2C75721D1980DE /* Pods-DormPassTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DormPassTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DormPassTests/Pods-DormPassTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB8DF2A4B2903F9313968B48 /* Pods_DormPass.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2A5A492BEBB706494BE8F38 /* Pods_DormPassTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,12 +92,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7C3AA65BFC9F56B8385B8F8 /* Pods_DormPassUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		78B205EB4A054A44D0F4A044 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA39FB693C6138925D432770 /* Pods-DormPass.debug.xcconfig */,
+				01F11DB5F8BBFF06D0FD224B /* Pods-DormPass.release.xcconfig */,
+				ED22943CDC2C75721D1980DE /* Pods-DormPassTests.debug.xcconfig */,
+				5517566475B41ECEE0B2A4F1 /* Pods-DormPassTests.release.xcconfig */,
+				696325C20E5D4004E1AFD1DE /* Pods-DormPassUITests.debug.xcconfig */,
+				2D6D1C8F263A9665694444B8 /* Pods-DormPassUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		94921B761E732AD900C5EC6B = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +119,8 @@
 				94921B961E732AD900C5EC6B /* DormPassTests */,
 				94921BA11E732AD900C5EC6B /* DormPassUITests */,
 				94921B801E732AD900C5EC6B /* Products */,
+				78B205EB4A054A44D0F4A044 /* Pods */,
+				DAFC0A64E515A140FC12336C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +140,7 @@
 				94921B821E732AD900C5EC6B /* AppDelegate.swift */,
 				94921B841E732AD900C5EC6B /* ViewController.swift */,
 				94921B861E732AD900C5EC6B /* Main.storyboard */,
+				94C2C1091EAA42BC00091B02 /* Student.swift */,
 				94A4B71C1E7C2EAD00A2B694 /* SignOutViewController.swift */,
 				94921BB01E732B5800C5EC6B /* please-sign-in.jpg */,
 				94921BB21E732B5D00C5EC6B /* keep-calm-and-don-t-forget-to-sign-out-1.png */,
@@ -137,6 +170,16 @@
 			path = DormPassUITests;
 			sourceTree = "<group>";
 		};
+		DAFC0A64E515A140FC12336C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2615EF5C2D5A0EAB09C6465 /* Pods_DormPass.framework */,
+				E5211DE4FB5175BE6083E65D /* Pods_DormPassTests.framework */,
+				6A17EF118D76CBBD83DB3CE2 /* Pods_DormPassUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94921BA71E732AD900C5EC6B /* Build configuration list for PBXNativeTarget "DormPass" */;
 			buildPhases = (
+				ABF846CB1444F4402987E735 /* [CP] Check Pods Manifest.lock */,
 				94921B7B1E732AD900C5EC6B /* Sources */,
 				94921B7C1E732AD900C5EC6B /* Frameworks */,
 				94921B7D1E732AD900C5EC6B /* Resources */,
+				A8AC7EA65B0720606A097039 /* [CP] Embed Pods Frameworks */,
+				480FBA2FF0FA77EBC82243A9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -161,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94921BAA1E732AD900C5EC6B /* Build configuration list for PBXNativeTarget "DormPassTests" */;
 			buildPhases = (
+				52AE1D7F37618C7A156F1786 /* [CP] Check Pods Manifest.lock */,
 				94921B8F1E732AD900C5EC6B /* Sources */,
 				94921B901E732AD900C5EC6B /* Frameworks */,
 				94921B911E732AD900C5EC6B /* Resources */,
+				053B3021D8FC9663758DD7FA /* [CP] Embed Pods Frameworks */,
+				18E99850C21B9BCB18532DEC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -179,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94921BAD1E732AD900C5EC6B /* Build configuration list for PBXNativeTarget "DormPassUITests" */;
 			buildPhases = (
+				7862DC4AD0F641020E7725DA /* [CP] Check Pods Manifest.lock */,
 				94921B9A1E732AD900C5EC6B /* Sources */,
 				94921B9B1E732AD900C5EC6B /* Frameworks */,
 				94921B9C1E732AD900C5EC6B /* Resources */,
+				F4587C0A66D4F49B94BA5492 /* [CP] Embed Pods Frameworks */,
+				3F0707A67D90957C40F62364 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -269,6 +321,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		053B3021D8FC9663758DD7FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DormPassTests/Pods-DormPassTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18E99850C21B9BCB18532DEC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DormPassTests/Pods-DormPassTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F0707A67D90957C40F62364 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DormPassUITests/Pods-DormPassUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		480FBA2FF0FA77EBC82243A9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DormPass/Pods-DormPass-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52AE1D7F37618C7A156F1786 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7862DC4AD0F641020E7725DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A8AC7EA65B0720606A097039 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DormPass/Pods-DormPass-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABF846CB1444F4402987E735 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F4587C0A66D4F49B94BA5492 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DormPassUITests/Pods-DormPassUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		94921B7B1E732AD900C5EC6B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -277,6 +467,7 @@
 				94921B851E732AD900C5EC6B /* ViewController.swift in Sources */,
 				94A4B71D1E7C2EAD00A2B694 /* SignOutViewController.swift in Sources */,
 				94921B831E732AD900C5EC6B /* AppDelegate.swift in Sources */,
+				94C2C10A1EAA42BC00091B02 /* Student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +617,7 @@
 		};
 		94921BA81E732AD900C5EC6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA39FB693C6138925D432770 /* Pods-DormPass.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DormPass/Info.plist;
@@ -438,6 +630,7 @@
 		};
 		94921BA91E732AD900C5EC6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01F11DB5F8BBFF06D0FD224B /* Pods-DormPass.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DormPass/Info.plist;
@@ -450,6 +643,7 @@
 		};
 		94921BAB1E732AD900C5EC6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED22943CDC2C75721D1980DE /* Pods-DormPassTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,6 +658,7 @@
 		};
 		94921BAC1E732AD900C5EC6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5517566475B41ECEE0B2A4F1 /* Pods-DormPassTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -478,6 +673,7 @@
 		};
 		94921BAE1E732AD900C5EC6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 696325C20E5D4004E1AFD1DE /* Pods-DormPassUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = DormPassUITests/Info.plist;
@@ -491,6 +687,7 @@
 		};
 		94921BAF1E732AD900C5EC6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D6D1C8F263A9665694444B8 /* Pods-DormPassUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = DormPassUITests/Info.plist;

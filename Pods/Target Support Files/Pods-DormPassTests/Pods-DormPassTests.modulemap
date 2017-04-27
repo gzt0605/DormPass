@@ -1,0 +1,6 @@
+framework module Pods_DormPassTests {
+  umbrella header "Pods-DormPassTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

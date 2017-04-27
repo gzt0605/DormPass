@@ -46,6 +46,3 @@ class ViewController: UIViewController {
         let database = firebase.database();
 }
 
-
-
-
