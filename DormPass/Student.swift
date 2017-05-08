@@ -15,11 +15,13 @@ class Student {
     var destination: String
     var currentTime: String
     
+    // making the list of required information
     init(name: String, returnTime: String, destination: String, currentTime: String) {
         self.name = name
         self.returnTime = returnTime
         self.destination = destination
         self.currentTime = currentTime
+        // Sign out system
         var isSignedOut: Bool = false
     }
     
