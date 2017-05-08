@@ -8,6 +8,7 @@
 
 import Foundation
 
+// make a list of things that require for signing in/out
 class Student {
     var name: String
     var returnTime: String
@@ -19,6 +20,7 @@ class Student {
         self.returnTime = returnTime
         self.destination = destination
         self.currentTime = currentTime
+        var isSignedOut: Bool = false
     }
     
 }

@@ -22,27 +22,3 @@ class ViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
-        // Check if the user is logged in.
-        let client = BAAClient.sharedClient()
-        if client.isAuthenticated() {
-            statusLabel.text = "Welcome!"
-        } else {
-            statusLabel.text = "Not Logged in."
-            self.navigationController?.performSegue(withIdentifier: "showLogin", sender: nil)
-        }
-
-        // Set the configuration for your app
-        // TODO: Replace with your project's config object
-        let config = {
-            apiKey;: "<AIzaSyDahM4vZeqS3TRMmk1mqeC0jq1_6AILNVc>",
-            authDomain: '<your-auth-domain>',
-            databaseURL: '<your-database-url>',
-            storageBucket: '<your-storage-bucket>'
-        };
-        firebase.initializeApp(config);
-        
-        // Get a reference to the database service
-        let database = firebase.database();
-}
-
