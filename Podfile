@@ -6,6 +6,7 @@ target 'DormPass' do
   use_frameworks!
 
   # Pods for DormPass
+pod ‘Firebase/Database’
 pod 'Firebase/Core'
   target 'DormPassTests' do
     inherit! :search_paths
