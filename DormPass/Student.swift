@@ -29,7 +29,8 @@ class Student {
         // Sign out system
         var isSignedOut: Bool = false
     }
-
+    
+    // save information to Firebase
     init(snapshot: FIRDataSnapshot) {
         key = snapshot.key
         let snapshotValue = snapshot.value as! [String: AnyObject]
